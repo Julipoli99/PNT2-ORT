@@ -1,3 +1,3 @@
-function saludar(nombre){
-    console.log(`Hola, ${nombre}!`);
+function saludar(nombre, apellido){
+    console.log(`Hola, ${nombre + " " + apellido}!`);
 }
