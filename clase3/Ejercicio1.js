@@ -20,6 +20,6 @@ filter para obtener un nuevo array que contenga solamente los personajes
 menores de 18 años.
 */
 
-const menoresDeEdad = personajesSimpsons.filter(personaje => {
+module.exports = menoresDeEdad = personajesSimpsons.filter(personaje => {
     return personaje.edad < 18
 })
